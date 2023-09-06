@@ -1,0 +1,34 @@
+form {
+  display: flex;
+  gap: 1rem;
+  flex-direction: column;
+
+  label {
+    display: flex;
+    gap: 4px;
+    flex-direction: column;
+    font-size: 1.4rem;
+
+    input {
+      padding: 4px 8px;
+      font-size: 1.4rem;
+      border: 1px solid #ccc;
+      border-radius: 6px;
+    }
+  }
+
+  button {
+    color: #fff;
+    background-color: rgb(94, 94, 237);
+    border: none;
+    padding: .4rem;
+    border-radius: 30px;
+    font-size: 1.4rem;
+    cursor: pointer;
+    transition: background-color .2s;
+
+    &:hover {
+      background-color: rgb(80, 80, 234);
+    }
+  }
+}
